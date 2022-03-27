@@ -5,11 +5,11 @@ import { ethers } from "hardhat";
 const deployGovToken: DeployFunction = async (
     hre: HardhatRuntimeEnvironment
 ) => {
-    const { getNamedAccounts, deployments, network } = hre;
+    const { getNamedAccounts, deployments } = hre;
     const { deploy, log } = deployments;
     const { deployer } = await getNamedAccounts();
 
-    log("Deploying Governor Token...");
+    log("Initialising Governor Token...");
 
     const token = await deploy("GovernorToken", {
         from: deployer,

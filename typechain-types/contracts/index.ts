@@ -4,4 +4,5 @@
 import type * as governanceStandard from "./governance_standard";
 export type { governanceStandard };
 export type { GovernorToken } from "./GovernorToken";
+export type { Vault } from "./Vault";
 export type { Venture } from "./Venture";

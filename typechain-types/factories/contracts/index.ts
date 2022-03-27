@@ -3,4 +3,5 @@
 /* eslint-disable */
 export * as governanceStandard from "./governance_standard";
 export { GovernorToken__factory } from "./GovernorToken__factory";
+export { Vault__factory } from "./Vault__factory";
 export { Venture__factory } from "./Venture__factory";

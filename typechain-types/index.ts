@@ -52,5 +52,7 @@ export type { TimeLock } from "./contracts/governance_standard/TimeLock";
 export { TimeLock__factory } from "./factories/contracts/governance_standard/TimeLock__factory";
 export type { GovernorToken } from "./contracts/GovernorToken";
 export { GovernorToken__factory } from "./factories/contracts/GovernorToken__factory";
+export type { Vault } from "./contracts/Vault";
+export { Vault__factory } from "./factories/contracts/Vault__factory";
 export type { Venture } from "./contracts/Venture";
 export { Venture__factory } from "./factories/contracts/Venture__factory";
